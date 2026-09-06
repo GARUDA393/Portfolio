@@ -1,0 +1,204 @@
+{"timestamp":"00:00:02.916","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:02.917","source":"Server","level":"LOG","message":"  We detected TypeScript in your project and reconfigured your tsconfig.json file for you."}
+{"timestamp":"00:00:02.917","source":"Server","level":"LOG","message":"  The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:\n"}
+{"timestamp":"00:00:02.917","source":"Server","level":"LOG","message":"  \t- include was updated to add '.next/dev/types/**/*.ts'"}
+{"timestamp":"00:00:02.918","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:02.918","source":"Server","level":"LOG","message":"  The following mandatory changes were made to your tsconfig.json:\n"}
+{"timestamp":"00:00:02.919","source":"Server","level":"LOG","message":"  \t- jsx was set to react-jsx (next.js uses the React automatic runtime)"}
+{"timestamp":"00:00:02.919","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:03.318","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:16.167","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:37.005","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:38.662","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:00:38.851","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:00:38.851","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:00:38.885","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:00:38.885","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:00:38.917","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:00:38.918","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:00:38.937","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:03:28.308","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:03:28.528","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:03:28.534","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:03:28.670","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:03:28.779","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:03:28.780","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:03:28.782","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:03:28.782","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:03:28.784","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:06:01.798","source":"Server","level":"LOG","message":"✓ Compiled in 384ms"}
+{"timestamp":"00:06:07.513","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"00:06:07.516","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"00:06:11.948","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:06:12.603","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:06:12.604","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:06:12.605","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:06:12.606","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:06:12.607","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"00:06:12.609","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"00:06:12.616","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"00:06:12.617","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:10:01.762","source":"Server","level":"LOG","message":"✓ Compiled in 708ms"}
+{"timestamp":"01:11:25.311","source":"Server","level":"LOG","message":"✓ Compiled in 260ms"}
+{"timestamp":"01:12:28.647","source":"Server","level":"LOG","message":"✓ Compiled in 448ms"}
+{"timestamp":"01:13:11.366","source":"Server","level":"LOG","message":"✓ Compiled in 156ms"}
+{"timestamp":"01:13:48.931","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:13:48.939","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:13:48.942","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:13:48.943","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:13:50.553","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/infer.webp\" \"received\" null"}
+{"timestamp":"01:13:50.566","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.webp\" \"received\" null"}
+{"timestamp":"01:13:50.576","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/architecture.webp\" \"received\" null"}
+{"timestamp":"01:13:50.583","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/insight.webp\" \"received\" null"}
+{"timestamp":"01:13:51.512","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.webp\" \"received\" null"}
+{"timestamp":"01:13:51.668","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/architecture.webp\" \"received\" null"}
+{"timestamp":"01:13:51.680","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/insight.webp\" \"received\" null"}
+{"timestamp":"01:13:51.686","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/infer.webp\" \"received\" null"}
+{"timestamp":"01:13:52.948","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:13:53.530","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:13:53.576","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:13:53.577","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:13:53.594","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:13:53.595","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:13:53.616","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:13:53.616","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:13:53.631","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:14:16.378","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:14:16.763","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.webp\" \"received\" null"}
+{"timestamp":"01:14:16.772","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/architecture.webp\" \"received\" null"}
+{"timestamp":"01:14:16.790","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/insight.webp\" \"received\" null"}
+{"timestamp":"01:14:16.802","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/infer.webp\" \"received\" null"}
+{"timestamp":"01:14:17.122","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:14:17.123","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:14:17.123","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:14:17.124","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:14:17.124","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:14:17.125","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:14:17.126","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:14:17.128","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:18:37.418","source":"Server","level":"LOG","message":"✓ Compiled in 564ms"}
+{"timestamp":"01:18:38.854","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:18:38.855","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:18:39.020","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.jpg\" \"received\" null"}
+{"timestamp":"01:18:40.620","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:18:42.868","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:18:42.870","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:18:42.871","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:18:42.872","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:18:42.872","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:18:42.874","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:18:42.877","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:18:42.879","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:18:44.245","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.jpg\" \"received\" null"}
+{"timestamp":"01:19:48.382","source":"Server","level":"LOG","message":"✓ Compiled in 128ms"}
+{"timestamp":"01:19:49.455","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:19:49.482","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:19:52.340","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:19:53.042","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:19:53.043","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:19:53.045","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:19:53.049","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:19:53.052","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:19:53.055","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:19:53.056","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:19:53.057","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:22:14.463","source":"Server","level":"LOG","message":"✓ Compiled in 233ms"}
+{"timestamp":"01:22:18.778","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:22:19.839","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:22:19.840","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:22:19.841","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:22:19.841","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:22:19.842","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:22:19.842","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:22:19.843","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:22:19.843","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:25:01.975","source":"Server","level":"LOG","message":"✓ Compiled in 129ms"}
+{"timestamp":"01:26:23.866","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.jpg\" \"received\" null"}
+{"timestamp":"01:26:42.741","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:26:42.744","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:26:42.749","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:26:42.750","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:26:44.866","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:26:46.667","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:26:46.668","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:26:46.669","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:26:46.670","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:26:46.670","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:26:46.671","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:26:46.672","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:26:46.673","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:26:48.562","source":"Server","level":"ERROR","message":"⨯ \"The requested resource isn't a valid image for\" \"/images/solve.jpg\" \"received\" null"}
+{"timestamp":"01:28:38.363","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:28:38.391","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:28:41.140","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:28:41.569","source":"Browser","level":"WARN","message":"Image with src \"/images/architecture.jpg\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"01:28:41.615","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/images/architecture.jpg\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"01:28:41.616","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:28:41.616","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:28:41.617","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:28:41.618","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:28:41.618","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:28:41.619","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:28:41.619","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:28:41.620","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:29:29.824","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:29:29.825","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:29:31.768","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:29:32.825","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:29:32.826","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:29:32.826","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:29:32.827","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:29:32.828","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:29:32.828","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:29:32.829","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:29:32.830","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:32:11.979","source":"Browser","level":"ERROR","message":"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. "}
+{"timestamp":"01:32:11.981","source":"Server","level":"ERROR","message":"[browser] \"Encountered two children with the same key, `Qualified`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.\" \"\""}
+{"timestamp":"01:32:16.066","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:32:16.846","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:32:16.847","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:32:16.848","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:32:16.848","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:32:16.849","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:32:16.850","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:32:16.850","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:32:16.851","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:33:26.310","source":"Server","level":"LOG","message":"✓ Compiled in 149ms"}
+{"timestamp":"01:33:31.332","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:33:32.170","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:33:32.172","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:33:32.172","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:33:32.173","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:33:32.174","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:33:32.180","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:33:32.182","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:33:32.183","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:38:40.270","source":"Server","level":"LOG","message":"✓ Compiled in 124ms"}
+{"timestamp":"01:38:45.427","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:38:45.806","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:38:45.806","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:38:45.807","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:38:45.808","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:38:45.809","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:38:45.810","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:38:45.810","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:38:45.811","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:39:51.870","source":"Server","level":"LOG","message":"✓ Compiled in 130ms"}
+{"timestamp":"01:39:55.946","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:39:56.800","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:39:56.800","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:39:56.801","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:39:56.802","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:39:56.803","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:39:56.803","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:39:56.804","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:39:56.805","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:41:20.620","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:41:21.518","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:41:21.519","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:41:21.520","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:41:21.521","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:41:21.521","source":"Browser","level":"WARN","message":"GSAP target .hero-title span not found. https://gsap.com"}
+{"timestamp":"01:41:21.523","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target .hero-title span not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
+{"timestamp":"01:41:21.524","source":"Browser","level":"WARN","message":"GSAP target  not found. https://gsap.com"}
+{"timestamp":"01:41:21.525","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mGSAP target  not found. https://gsap.com\\u001b[39m\" \"\\u001b[2m(src/components/Hero.tsx:15:10)\\u001b[22m\""}
