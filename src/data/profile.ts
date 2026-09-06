@@ -62,17 +62,17 @@ export const profile = {
   visuals: [
     {
       id: "precision",
-      src: "/images/precision.jpg",
+      src: "./images/precision.jpg",
       alt: "Software verification and validation"
     },
     {
       id: "proof",
-      src: "/images/proof.jpg",
+      src: "./images/proof.jpg",
       alt: "Engineering achievements"
     },
     {
       id: "next-mission",
-      src: "/images/next_mission.jpg",
+      src: "./images/next_mission.jpg",
       alt: "The next engineering mission"
     }
   ],
@@ -210,7 +210,7 @@ export const profile = {
         "Kociemba"
       ],
       accent: "SOLVE",
-      image: "/images/solve.jpeg",
+      image: "./images/solve.jpeg",
       imageAlt: "Rubik's Cube Solver",
       href: "#"
     },
@@ -227,7 +227,7 @@ export const profile = {
         "MySQL"
       ],
       accent: "ARCHITECTURE",
-      image: "/images/architecture.jpg",
+      image: "./images/architecture.jpg",
       imageAlt: "Enterprise software architecture",
       href: "#"
     },
@@ -244,7 +244,7 @@ export const profile = {
         "UAT"
       ],
       accent: "INSIGHT",
-      image: "/images/insight.jpg",
+      image: "./images/insight.jpg",
       imageAlt: "Data analytics and business intelligence",
       href: "#"
     },
@@ -261,7 +261,7 @@ export const profile = {
         "Streamlit"
       ],
       accent: "INFER",
-      image: "/images/infer.jpg",
+      image: "./images/infer.jpg",
       imageAlt: "AI powered plant disease detection",
       href: "#"
     }
