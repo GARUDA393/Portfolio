@@ -1,3 +1,6 @@
+const imagePath = (fileName: string) =>
+  `${process.env.NODE_ENV === "production" ? "/Portfolio" : ""}/images/${fileName}`;
+
 export const profile = {
   name: "Anurag Prabhuling Swami",
   shortName: "ANURAG PRABHULING SWAMI",
@@ -61,37 +64,37 @@ export const profile = {
   visuals: [
     {
       id: "top",
-      src: "/images/intro.jpg",
+      src: imagePath("intro.jpg"),
       alt: "Engineering portfolio introduction"
     },
     {
       id: "curiosity",
-      src: "/images/curious.jpeg",
+      src: imagePath("curious.jpeg"),
       alt: "Curiosity and problem solving"
     },
     {
       id: "evolution",
-      src: "/images/journey.jpeg",
+      src: imagePath("journey.jpeg"),
       alt: "Engineering journey across systems"
     },
     {
       id: "intelligence",
-      src: "/images/data_to_solutions.jpeg",
+      src: imagePath("data_to_solutions.jpeg"),
       alt: "Turning data into solutions"
     },
     {
       id: "precision",
-      src: "/images/precision.jpg",
+      src: imagePath("precision.jpg"),
       alt: "Software verification and validation"
     },
     {
       id: "proof",
-      src: "/images/proof.jpg",
+      src: imagePath("proof.jpg"),
       alt: "Engineering achievements"
     },
     {
       id: "next-mission",
-      src: "/images/next_mission.jpg",
+      src: imagePath("next_mission.jpg"),
       alt: "The next engineering mission"
     }
   ],
@@ -229,7 +232,7 @@ export const profile = {
         "Kociemba"
       ],
       accent: "SOLVE",
-      image: "/images/solve.jpeg",
+      image: imagePath("solve.jpeg"),
       imageAlt: "Rubik's Cube Solver",
       href: "https://aero-hack.vercel.app/"
     },
@@ -246,7 +249,7 @@ export const profile = {
         "MySQL"
       ],
       accent: "ARCHITECTURE",
-      image: "/images/architecture.jpg",
+      image: imagePath("architecture.jpg"),
       imageAlt: "Enterprise software architecture",
       href: "#"
     },
@@ -263,7 +266,7 @@ export const profile = {
         "UAT"
       ],
       accent: "INSIGHT",
-      image: "/images/insight.jpg",
+      image: imagePath("insight.jpg"),
       imageAlt: "Data analytics and business intelligence",
       href: "#"
     },
@@ -280,7 +283,7 @@ export const profile = {
         "Streamlit"
       ],
       accent: "INFER",
-      image: "/images/infer.jpg",
+      image: imagePath("infer.jpg"),
       imageAlt: "AI powered plant disease detection",
       href: "#"
     }
