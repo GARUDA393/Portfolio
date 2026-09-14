@@ -16,6 +16,7 @@ export function CinematicImageTransition({
   visuals: readonly Visual[];
 }) {
   const imageRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const glassSheenRef = useRef<HTMLDivElement | null>(null);
   const activeIndex = useRef(-1);
   const ticking = useRef(false);
 
@@ -43,6 +44,23 @@ export function CinematicImageTransition({
       if (!target) return;
 
       activeIndex.current = index;
+
+      if (glassSheenRef.current && !reducedMotion) {
+        gsap.fromTo(
+          glassSheenRef.current,
+          { xPercent: -140, autoAlpha: 0 },
+          {
+            xPercent: 420,
+            autoAlpha: 1,
+            duration: 1.2,
+            ease: "power2.inOut",
+            overwrite: true,
+            onComplete: () => {
+              gsap.set(glassSheenRef.current, { autoAlpha: 0 });
+            }
+          }
+        );
+      }
 
       images.forEach((image, imageIndex) => {
         if (imageIndex === index) {
@@ -177,15 +195,23 @@ export function CinematicImageTransition({
           />
 
           {/* Main darkening layer */}
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/10" />
 
           {/* Cinematic vertical gradient */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#08090B]/45 via-[#08090B]/65 to-[#08090B]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#08090B]/15 to-[#08090B]/75" />
 
           {/* Edge vignette */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(8,9,11,.4)_65%,#08090B_100%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(8,9,11,.12)_65%,rgba(8,9,11,.7)_100%)]" />
         </div>
       ))}
+
+      <div className="glass-surface absolute inset-0" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgba(255,255,255,.08),transparent_38%)]" />
+      <div
+        ref={glassSheenRef}
+        className="absolute -inset-y-1/2 left-[-18%] w-[18%] rotate-[18deg] bg-white/[0.13] blur-3xl"
+        style={{ opacity: 0 }}
+      />
     </div>
   );
 }

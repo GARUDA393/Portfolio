@@ -63,7 +63,7 @@ export function ProjectCard({
           alt={project.imageAlt}
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-cover opacity-55 transition-opacity duration-700 group-hover:opacity-70"
+          className="object-cover opacity-100 transition-opacity duration-700 group-hover:opacity-100"
         />
       </div>
 

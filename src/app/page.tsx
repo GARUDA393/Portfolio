@@ -4,15 +4,19 @@ import { Chapter } from "@/components/Chapter";
 import { Timeline } from "@/components/Timeline";
 import { ProjectCard } from "@/components/ProjectCard";
 import { CapabilityMap } from "@/components/CapabilityMap";
+import { CinematicImageTransition } from "@/components/CinematicImageTransition";
 import { profile } from "@/data/profile";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
+    <main className="relative overflow-hidden">
+      <CinematicImageTransition visuals={profile.visuals} />
 
-      <Chapter number="02" name="Curiosity">
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+
+        <Chapter number="02" name="Curiosity">
         <div className="grid gap-10 lg:grid-cols-2">
           <h2 className="display text-5xl font-semibold md:text-7xl">
             I&apos;VE ALWAYS BEEN CURIOUS ABOUT HOW THINGS WORK.
@@ -24,16 +28,16 @@ export default function Home() {
             <p>From software to systems where failure isn&apos;t an option.</p>
           </div>
         </div>
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="03" name="Evolution" className="border-t border-white/5">
+        <Chapter number="03" name="Evolution" className="border-t border-white/5">
         <h2 className="display mb-14 max-w-4xl text-5xl font-semibold md:text-7xl">
           A JOURNEY ACROSS <span className="text-white/35">SYSTEMS.</span>
         </h2>
         <Timeline items={profile.timeline} />
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="04" name="The Lab" className="border-t border-white/5">
+        <Chapter number="04" name="The Lab" className="border-t border-white/5">
         <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div>
             <div className="eyebrow mb-4">Experiments · Projects · Case studies</div>
@@ -44,9 +48,9 @@ export default function Home() {
         <div className="grid gap-5 md:grid-cols-2">
           {profile.projects.map((project) => <ProjectCard key={project.number} project={project} />)}
         </div>
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="05" name="Intelligence" className="border-t border-white/5">
+        <Chapter number="05" name="Intelligence" className="border-t border-white/5">
         <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
           <div>
             <div className="eyebrow mb-4">AI / Data</div>
@@ -64,9 +68,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="06" name="Precision" className="border-t border-white/5">
+        <Chapter number="06" name="Precision" className="border-t border-white/5">
         <div className="grid gap-12 lg:grid-cols-[1fr_.9fr]">
           <div>
             <div className="eyebrow mb-4">Aerospace · V&V</div>
@@ -91,9 +95,9 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="07" name="Proof" className="border-t border-white/5">
+        <Chapter number="07" name="Proof" className="border-t border-white/5">
         <div className="mb-12">
           <div className="eyebrow mb-4">Evidence, not adjectives</div>
           <h2 className="display text-5xl font-semibold md:text-7xl">PROOF OF DISCIPLINE.</h2>
@@ -116,9 +120,9 @@ export default function Home() {
             <span className="mono text-xs text-white/35">AUG 2026 — PRESENT</span>
           </div>
         </div>
-      </Chapter>
+        </Chapter>
 
-      <Chapter number="08" name="Next Mission" className="border-t border-white/5">
+        <Chapter number="08" name="Next Mission" className="border-t border-white/5">
         <div className="min-h-[60vh] flex flex-col justify-center">
           <div className="eyebrow mb-8">The next system is waiting.</div>
           <h2 className="display max-w-6xl text-6xl font-semibold md:text-9xl">
@@ -139,7 +143,8 @@ export default function Home() {
         <footer className="border-t border-white/10 pt-7 text-xs text-white/30">
           GARUDA · Anurag Prabhuling Swami · {new Date().getFullYear()}
         </footer>
-      </Chapter>
+        </Chapter>
+      </div>
     </main>
   );
 }

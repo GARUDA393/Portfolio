@@ -1,6 +1,6 @@
 export const profile = {
   name: "Anurag Prabhuling Swami",
-  shortName: "GARUDA P.",
+  shortName: "ANURAG PRABHULING SWAMI",
   role: "Analyst - Graduate Engineering Trainee",
   company: "Pratt & Whitney",
   location: "Bengaluru, Karnataka, India",
@@ -31,7 +31,7 @@ export const profile = {
       label: "Qualified"
     },
     {
-      value: "9×",
+      value: "11×",
       suffix: " SSB",
       label: "Qualified"
     },
@@ -53,26 +53,45 @@ export const profile = {
    * Cinematic background visuals
    *
    * IMPORTANT:
-   * These paths point directly to:
-   * public/images/*.jpg
+  * These paths point directly to files in public/images.
    *
    * Section IDs must match the IDs generated
    * by the Chapter component.
    */
   visuals: [
     {
+      id: "top",
+      src: "/images/intro.jpg",
+      alt: "Engineering portfolio introduction"
+    },
+    {
+      id: "curiosity",
+      src: "/images/curious.jpeg",
+      alt: "Curiosity and problem solving"
+    },
+    {
+      id: "evolution",
+      src: "/images/journey.jpeg",
+      alt: "Engineering journey across systems"
+    },
+    {
+      id: "intelligence",
+      src: "/images/data_to_solutions.jpeg",
+      alt: "Turning data into solutions"
+    },
+    {
       id: "precision",
-      src: "./images/precision.jpg",
+      src: "/images/precision.jpg",
       alt: "Software verification and validation"
     },
     {
       id: "proof",
-      src: "./images/proof.jpg",
+      src: "/images/proof.jpg",
       alt: "Engineering achievements"
     },
     {
       id: "next-mission",
-      src: "./images/next_mission.jpg",
+      src: "/images/next_mission.jpg",
       alt: "The next engineering mission"
     }
   ],
@@ -210,9 +229,9 @@ export const profile = {
         "Kociemba"
       ],
       accent: "SOLVE",
-      image: "./images/solve.jpeg",
+      image: "/images/solve.jpeg",
       imageAlt: "Rubik's Cube Solver",
-      href: "#"
+      href: "https://aero-hack.vercel.app/"
     },
     {
       number: "02",
@@ -227,7 +246,7 @@ export const profile = {
         "MySQL"
       ],
       accent: "ARCHITECTURE",
-      image: "./images/architecture.jpg",
+      image: "/images/architecture.jpg",
       imageAlt: "Enterprise software architecture",
       href: "#"
     },
@@ -244,7 +263,7 @@ export const profile = {
         "UAT"
       ],
       accent: "INSIGHT",
-      image: "./images/insight.jpg",
+      image: "/images/insight.jpg",
       imageAlt: "Data analytics and business intelligence",
       href: "#"
     },
@@ -261,7 +280,7 @@ export const profile = {
         "Streamlit"
       ],
       accent: "INFER",
-      image: "./images/infer.jpg",
+      image: "/images/infer.jpg",
       imageAlt: "AI powered plant disease detection",
       href: "#"
     }
